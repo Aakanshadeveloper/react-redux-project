@@ -1,0 +1,32 @@
+.container {
+    width: auto;
+    background-color: #d5d5d557;
+}
+.row{
+    margin-top: 6% !important;
+    padding: 30px;
+}
+.date-picker{
+    padding: 10px;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.date-show{
+    padding: 20px 94px 20px 9px;
+    border-radius: 10px;
+    border: 1px solid #dfdfdf;
+}
+.action-btn{
+    border-radius: 14px;
+    filter: invert(1);
+    background: gray;
+    padding: 3px 5px;
+}
+.btn{
+    box-shadow: none !important;
+}
+::placeholder {
+    font-size: 18px;
+    font-weight: 200px;
+  }
